@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Simple Calculator </title>
+		<meta charset = "UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<h1> Simple Calculator </h1>
+		<form class="inline">
+			<label for="value_one"> First value: </label>
+			<input type="text" id="value_one" name="value" required/>
+		</form>
+			<!--first value input button-->
+		
+		<fieldset class="inline">
+			<form>
+				<label for="plus"> + </label>
+				<input type="radio" value="plus" id="plus" name="operator">  
+				<br>
+				<label for="minus"> - </label>
+				<input type="radio" value="minus" id="minus" name="operator">  
+				<br>
+				<label for="multiply"> x </label>
+				<input type="radio" value="multiply" id="multiply" name="operator">
+			    <br>
+				<label for="divide"> &divide; </label>
+				<input type="radio" value="divide" id="divide" name="operator">
+			</form>
+		</fieldset>	  
+			<!--operator input button-->
+
+		<form class="inline">
+			<label for="value_two"> Second value: </label>
+			<input type="text" id="value_two" name="value" required/>
+		</form>
+			<!--second value input button-->
+
+		<button onclick="compute()">Compute</button>
+		<br>
+
+		<p class="res">
+			Result:
+		</p>
+		<p id="result" class="res">
+		</p>
+
+	</body>
+</html>

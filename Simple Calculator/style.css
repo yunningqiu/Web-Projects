@@ -1,0 +1,8 @@
+.block{
+	display: block;
+}
+
+.res, .inline{
+	display: inline;
+}
+
