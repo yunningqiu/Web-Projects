@@ -1,0 +1,71 @@
+body{
+	background-color: #FFE4E1;
+}
+
+h1{
+	font-size: 250%;
+	color: #20B2AA;
+	text-align: center;
+	text-shadow: 2px 2px #4169E1;
+}
+
+table{
+	border: 1px solid black;
+	margin: 10px;
+	float: left;
+	background-color: #FFE4B5;
+}
+
+th, td{
+	border: 1px solid black;
+}
+
+div{
+	float: right;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#art{
+	position: relative;
+	z-index: 3;
+	left: 70px;
+	bottom: 25px;
+	border: 1px solid black;
+}
+
+#president{
+	position: relative;
+	z-index: 2;
+	right: 50px;
+	bottom: 5px;
+	border: 1px solid black;
+}
+
+#idea{
+	position: relative;
+	z-index: 1;
+	right: 150px;
+	top: 15px;
+	border: 1px solid black;
+}
+
+#art:hover, #president:hover, #idea:hover{
+	z-index: 10;
+	border: 3px solid red;
+}
+
+article{
+	text-indent: 30px;
+	margin: 5px;
+	font-family: Arial, sans-sarif;
+}
+
+h2{
+	font-size: 120%;
+	color:  #20B2AA;
+}
+
+fieldset{
+	background-color: #FFE4B5;
+}
